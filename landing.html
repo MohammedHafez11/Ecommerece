@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <title>HOME TREND </title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- iconsax css -->
+    <link rel="stylesheet" type="text/css" href="css/iconsax.css" />
+
+    <!-- swiper css -->
+    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" id="rtl-link" type="text/css" href="css/bootstrap.min.css" />
+    <!-- Theme css -->
+    <link rel="stylesheet" id="change-link" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- side bar start -->
+    <div id="sidebar" class="offcanvas sidebar-offcanvas offcanvas-start hidden">
+      <div class="offcanvas-header">
+        <img class="img-fluid profile-pic" src="img/profile.png" alt="profile" />
+        <h4>Hello, Agasya!</h4>
+        <button id="btn-close-sidebar" type="button" class="btn-close">x</button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="sidebar-content">
+          <ul class="link-section">
+            <li>
+              <div class="pages">
+                <h4>RTL</h4>
+                <div class="switch-btn">
+                  <input id="dir-switch" type="checkbox" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="pages">
+                <h4>Dark</h4>
+                <div class="switch-btn">
+                  <input id="dark-switch" type="checkbox" />
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <a href="page-listing.html" class="pages">
+                <h4>Pages</h4>
+                <i class="ri-arrow-drop-right-line"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="setting.html" class="pages">
+                <h4>Setting</h4>
+                <i class="ri-arrow-drop-right-line"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="login.html" class="pages">
+                <h4>Logout</h4>
+                <i class="ri-arrow-drop-right-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- side bar end -->
+
+    <!-- header start -->
+    <header class="section-t-space">
+      <div class="custom-container">
+        <div class="header">
+          <div class="head-content">
+            <button id="menu-icon" class="sidebar-btn" type="button">
+              <i class="iconsax menu-icon" data-icon="menu-hamburger"></i>
+            </button>
+            <div class="header-info">
+              <img class="img-fluid profile-pic" src="img/profile.png" alt="profile" />
+              <div>
+                <h4 class="light-text">Hello</h4>
+                <h2 class="theme-color">Agasya!</h2>
+              </div>
+            </div>
+          </div>
+          <a href="notification.html" class="notification">
+            <i class="iconsax notification-icon" data-icon="bell-2"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- search section starts -->
+    <section >
+      <div class="custom-container" >
+        <form class="theme-form search-head" target="_blank" >
+          <div class="form-group" style="display: flex; align-items: center;">
+            <div class="form-input">
+              <input style="width: 100%; outline: none;" type="text" class="form-control search" id="inputusername" placeholder="Search here..." />
+              <i class="iconsax search-icon" data-icon="search-normal-2"></i>
+            </div>
+            <a style="padding: 10px;" href="#search-filter" class="filter-btn" data-bs-toggle="modal">
+              <i class="iconsax filter-icon" data-icon="media-sliders-3"></i>
+            </a>
+            
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- search section end -->
+
+    <!-- banner section start -->
+    <section class="banner-wapper">
+      <div class="custom-container">
+        <div class="banner-bg">
+          <img class="img-fluid img-bg" src="img/banner-1.jpg" alt="banner-1" />
+          <div class="banner-content">
+            <h2 class="fw-semibold">Best Selling</h2>
+            <h4>Comforts & Modern life Stylish Sofa</h4>
+          </div>
+          <a href="shop.html" class="more-btn">
+            <h4>View More</h4>
+            <i class="iconsax right-arrow" data-icon="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- banner section start -->
+
+    <!-- categories section start -->
+    <section>
+      <div class="custom-container">
+        <div class="swiper categories">
+          <div class="swiper-wrapper ratio_square">
+            <div class="swiper-slide">
+              <a href="#" class="categories-item active">
+                <img class="categories-img" src="img/sofa.svg" alt="sofa" />
+                <h4>Sofa</h4>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="shop.html" class="categories-item">
+                <h4>Chair</h4>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="shop.html" class="categories-item">
+                <h4>Table</h4>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="shop.html" class="categories-item">
+                <h4>Cabinets</h4>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="shop.html" class="categories-item">
+                <h4>Cupboard</h4>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="shop.html" class="categories-item">
+                <h4>Lamp</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- categories section end -->
+
+    <!-- New Arrivals section start -->
+    <section class="section-t-space">
+      <div class="custom-container">
+        <div class="title">
+          <h2>New Arrivals</h2>
+          <a href="shop.html">View All</a>
+        </div>
+        <div style="display: flex; justify-content: space-between;" class="row g-3">
+          <div style="width: 50%;" class="col-6">
+            <div class="product-box">
+              <div class="product-box-img">
+                <a href="shop.html"><img class="img" src="img/1.png" alt="p1" /></a>
+
+                <div class="cart-box">
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="like-btn animate active inactive">
+                <img class="outline-icon" src="img/like.svg" alt="like" />
+                <img class="fill-icon" src="img/like-fill.svg" alt="like" />
+                <div class="effect-group">
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                </div>
+              </div>
+              <div class="product-box-detail">
+                <h4>Buddy Chair</h4>
+                <h5>Modern saddle arms</h5>
+                <div class="bottom-panel">
+                  <div class="price">
+                    <h4>$14 <del class="pev-price">$20</del></h4>
+                  </div>
+                  <div class="rating">
+                    <img src="img/Star.svg" alt="star" />
+                    <h6>4.5</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="width: 50%;" class="col-6">
+            <div class="product-box">
+              <div class="product-box-img">
+                <a href="shop.html">
+                  <img class="img" src="img/2.png" alt="p2" />
+                </a>
+
+                <div class="cart-box">
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="like-btn animate inactive">
+                <img class="outline-icon" src="img/like.svg" alt="like" />
+                <img class="fill-icon" src="img/like-fill.svg" alt="like" />
+                <div class="effect-group">
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                </div>
+              </div>
+              <div class="product-box-detail">
+                <h4>Wingback Chair</h4>
+                <h5>Modern saddle arms</h5>
+                <div class="bottom-panel">
+                  <div class="price">
+                    <h4>$14 <del class="pev-price">$20</del></h4>
+                  </div>
+                  <div class="rating">
+                    <img src="img/Star.svg" alt="star" />
+                    <h6>4.5</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- New Arrivals section end -->
+
+    <!-- Trending Furniture section start -->
+    <section class="section-t-space">
+      <div class="custom-container">
+        <div class="title">
+          <h2>Trending Furniture</h2>
+          <a href="product-details.html">View All</a>
+        </div>
+
+        <div  class="row g-3">
+          <div class="col-12">
+            <div class="horizontal-product-box">
+              <a href="product-details.html" class="horizontal-product-img">
+                <img class="img-fluid img" src="img/3.png" alt="p3" />
+              </a>
+              <div class="horizontal-product-details">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                  <h4>Wingback Chair</h4>
+                  <div class="rating d-flex align-items-center">
+                    <img src="img/Star.svg" alt="star" />
+
+                    <h6 class="theme-color fw-normal">4.5</h6>
+                  </div>
+                </div>
+                <h5>Modern arms chairs</h5>
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                  <div class="d-flex align-items-center gap-2">
+                    <h3 class="fw-semibold">$25</h3>
+                    <h6 class="save">Save $10</h6>
+                  </div>
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="horizontal-product-box">
+              <a href="product-details.html" class="horizontal-product-img">
+                <img class="img-fluid img" src="img/4.png" alt="p4" />
+              </a>
+              <div class="horizontal-product-details">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                  <h4>Mid Century Sofa</h4>
+                  <div class="rating d-flex align-items-center">
+                    <img src="img/Star.svg" alt="star" />
+
+                    <h6 class="theme-color fw-normal">4.5</h6>
+                  </div>
+                </div>
+                <h5>Modern arms Sofa</h5>
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                  <div class="d-flex align-items-center gap-2">
+                    <h3 class="fw-semibold">$999</h3>
+                  </div>
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div  class="col-12">
+            <div  class="horizontal-product-box">
+              <a href="product-details.html" class="horizontal-product-img">
+                <img class="img-fluid img" src="img/5.png" alt="p5" />
+              </a>
+              <div  class="horizontal-product-details">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                  <h4>Beige Chair</h4>
+                  <div class="rating d-flex align-items-center">
+                    <img src="img/Star.svg" alt="star" />
+
+                    <h6 class="theme-color fw-normal">4.5</h6>
+                  </div>
+                </div>
+                <h5>Modern arms chair</h5>
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                  <div class="d-flex align-items-center gap-2">
+                    <h3 class="fw-semibold">$37</h3>
+                  </div>
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trending Furniture section end -->
+
+    <!-- banner section start -->
+    <section class="banner-wapper">
+      <div class="custom-container">
+        <div class="banner-bg">
+          <img class="img-fluid img-bg" src="img/banner-2.jpg" alt="banner-2" />
+          <div class="banner-content">
+            <h2 class="fw-semibold">Best Selling</h2>
+            <h4>Comforts & Modern life Stylish Sofa</h4>
+          </div>
+          <a href="shop.html" class="more-btn">
+            <h4>View More</h4>
+            <i class="iconsax right-arrow" data-icon="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
+
+    <!-- offer section start -->
+    <section class="offer-zone section-b-space pt-0">
+      <div class="custom-container">
+        <div class="title">
+          <h2>Offer Zone</h2>
+          <a href="product-details.html">View All</a>
+        </div>
+
+        <div class="swiper offer">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="horizontal-product-box">
+                <a href="product-details.html" class="horizontal-product-img">
+                  <img class="img-fluid img" src="img/6.png" alt="p6" />
+                </a>
+                <div class="horizontal-product-details">
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h4>Table Lamp</h4>
+                  </div>
+                  <h5>Bedroom Study Table Lamp</h5>
+                  <div class="rating d-flex align-items-center gap-1 mt-1">
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div class="d-flex align-items-center gap-2">
+                      <h3 class="fw-semibold">$37</h3>
+                    </div>
+                    <a href="cart.html" class="cart-bag">
+                      <i class="iconsax bag" data-icon="basket-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="horizontal-product-box mt-3">
+                <a href="product-details.html" class="horizontal-product-img">
+                  <img class="img-fluid img" src="img/7.png" alt="p7" />
+                </a>
+                <div class="horizontal-product-details">
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h4>Side Table</h4>
+                  </div>
+                  <h5>Solid wood console table</h5>
+                  <div class="rating d-flex align-items-center gap-1 mt-1">
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div class="d-flex align-items-center gap-2">
+                      <h3 class="fw-semibold">$37</h3>
+                    </div>
+                    <a href="cart.html" class="cart-bag">
+                      <i class="iconsax bag" data-icon="basket-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="horizontal-product-box">
+                <a href="product-details.html" class="horizontal-product-img">
+                  <img class="img-fluid img" src="img/8.png" alt="p8" />
+                </a>
+                <div class="horizontal-product-details">
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h4>Lounge Chair</h4>
+                  </div>
+                  <h5>Modern arms chair</h5>
+                  <div class="rating d-flex align-items-center gap-1 mt-1">
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div class="d-flex align-items-center gap-2">
+                      <h3 class="fw-semibold">$37</h3>
+                    </div>
+                    <a href="cart.html" class="cart-bag">
+                      <i class="iconsax bag" data-icon="basket-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="horizontal-product-box mt-3">
+                <a href="product-details.html" class="horizontal-product-img">
+                  <img class="img-fluid img" src="img/9.png" alt="p9" />
+                </a>
+                <div class="horizontal-product-details">
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h4>Swing Chair</h4>
+                  </div>
+                  <h5>Modern steel swing chair</h5>
+                  <div class="rating d-flex align-items-center gap-1 mt-1">
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+
+                    <img src="img/Star.svg" alt="star" />
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <div class="d-flex align-items-center gap-2">
+                      <h3 class="fw-semibold">$37</h3>
+                    </div>
+                    <a href="cart.html" class="cart-bag">
+                      <i class="iconsax bag" data-icon="basket-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- offer section start -->
+
+    <!-- other furniture section start -->
+    <section class="section-t-space">
+      <div class="custom-container">
+        <div class="title">
+          <h2>Furniture And Decor</h2>
+          <a href="shop.html">View All</a>
+        </div>
+
+        <div style="display: flex; justify-content: space-between;" class="row g-4">
+          
+          <div style="width: 46%; margin: 10px;">
+            <div class="product-box">
+              <div class="product-box-img">
+                <a href="shop.html"> <img class="img" src="img/10.png" alt="p10" /></a>
+
+                <div class="cart-box">
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="like-btn animate active inactive">
+                <img class="outline-icon" src="img/like.svg" alt="like" />
+                <img class="fill-icon" src="img/like-fill.svg" alt="like" />
+
+                <div class="effect-group">
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                </div>
+              </div>
+              <div class="product-box-detail">
+                <h4>Bubble Swing Chair</h4>
+                <div style="display: flex; justify-content: space-between;">
+                  <h5>Modern Swing Chair</h5>
+                  <h3 class="fw-semibold">$120</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="width: 46%; margin: 10px;">
+            <div class="product-box">
+              <div class="product-box-img">
+                <a href="shop.html"> <img class="img" src="img/11.png" alt="p11" /></a>
+
+                <div class="cart-box">
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="like-btn animate inactive">
+                <img class="outline-icon" src="img/like.svg" alt="like" />
+                <img class="fill-icon" src="img/like-fill.svg" alt="like" />
+                <div class="effect-group">
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                </div>
+              </div>
+              <div class="product-box-detail">
+                <h4>Lounge Chair</h4>
+                <div style="display: flex; justify-content: space-between;">
+                  <h5>Modern arms chair</h5>
+                  <h3 class="fw-semibold">$120</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;" class="row g-4">
+          <div style="width: 46%; margin: 10px;">
+            <div class="product-box">
+              <div class="product-box-img">
+                <a href="shop.html"> <img class="img" src="img/12.png" alt="p12" /></a>
+
+                <div class="cart-box">
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="like-btn animate inactive">
+                <img class="outline-icon" src="img/like.svg" alt="like" />
+                <img class="fill-icon" src="img/like-fill.svg" alt="like" />
+
+                <div class="effect-group">
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                </div>
+              </div>
+              <div class="product-box-detail">
+                <h4>Double Bed Sheet</h4>
+                <div style="display: flex; justify-content: space-between;">
+                  <h5>Modern double bed sheet</h5>
+                  <h3 class="fw-semibold">$120</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="width: 46%; margin: 10px;">
+            <div class="product-box">
+              <div class="product-box-img">
+                <a href="shop.html"> <img class="img" src="img/13.png" alt="p13" /></a>
+
+                <div class="cart-box">
+                  <a href="cart.html" class="cart-bag">
+                    <i class="iconsax bag" data-icon="basket-2"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="like-btn animate inactive">
+                <img class="outline-icon" src="img/like.svg" alt="like" />
+                <img class="fill-icon" src="img/like-fill.svg" alt="like" />
+                <div class="effect-group">
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                  <span class="effect"></span>
+                </div>
+              </div>
+              <div class="product-box-detail">
+                <h4>Hanging Light</h4>
+                <div style="display: flex; justify-content: space-between;">
+                  <h5>Metal hanging light</h5>
+                  <h3 class="fw-semibold">$120</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          </div>
+      </div>
+    </section>
+    <!-- other furniture section end -->
+
+    <!-- banner section start -->
+    <section  class="banner-wapper grid-banner">
+      <div class="custom-container">
+        <div style="display: flex;" class="row">
+          <div style="width: 45%; margin: 10px;">
+            <div class="banner-bg">
+              <img class="img-fluid img-bg" src="img/banner-3.jpg" alt="banner-3" />
+              <div class="banner-content">
+                <h3>Wingback Chair</h3>
+              </div>
+              <a href="shop.html" class="more-btn d-block">
+                <i class="iconsax right-arrow" data-icon="arrow-right"></i>
+                <h3>View More</h3>
+              </a>
+              <div class="banner-bg"></div>
+            </div>
+          </div>
+
+          <div style="width: 45%; margin: 10px;">
+            <div class="banner-bg">
+              <img class="img-fluid img-bg" src="img/banner-4.jpg" alt="banner-3" />
+              <div class="banner-content">
+                <h3>Wingback Chair</h3>
+              </div>
+              <a href="shop.html" class="more-btn d-block">
+                <i class="iconsax right-arrow" data-icon="arrow-right"></i>
+                <h3>View More</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
+
+    
+
+    <!-- panel-space start -->
+    <section class="panel-space"></section>
+    <!-- panel-space end -->
+
+    <!-- bottom navbar start -->
+    <div class="navbar-menu">
+      <ul>
+        <li class="active">
+          <a href="landing.html">
+            <div class="icon">
+              <img class="unactive" src="img/home.svg" alt="home" />
+              <img class="active" src="img/home-fill.svg" alt="home" />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="categories.html">
+            <div class="icon">
+              <img class="unactive" src="img/categories.svg" alt="categories" />
+              <img class="active" src="img/categories-fill.svg" alt="categories" />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="cart.html">
+            <div class="icon">
+              <img class="unactive" src="img/bag.svg" alt="bag" />
+              <img class="active" src="img/bag.svg" alt="bag" />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="wishlist.html">
+            <div class="icon">
+              <img class="unactive" src="img/heart.svg" alt="heart" />
+              <img class="active" src="img/heart-fill.svg" alt="heart" />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html">
+            <div class="icon">
+              <img class="unactive" src="img/profile.svg" alt="profile" />
+              <img class="active" src="img/profile-fill.svg" alt="profile" />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- bottom navbar end -->
+
+    <!-- swiper js -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/custom-swiper.js"></script>
+
+    <!-- range-slider js -->
+    <script src="js/range-slider.js"></script>
+
+    <!-- iconsax js -->
+    <script src="js/iconsax.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
